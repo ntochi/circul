@@ -1,0 +1,28 @@
+{
+  "name": "circul",
+  "version": "1.0.0",
+  "description": "where creativity earns",
+  "main": "app.js",
+  "dependencies": {
+    "autoprefixer": "^10.3.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon app.js",
+    "build": "postcss styles/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntochi/circul.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntochi/circul/issues"
+  },
+  "homepage": "https://github.com/ntochi/circul#readme"
+}
