@@ -1,82 +1,229 @@
-<%- include('./partials/header') %>
+<iv%- include('./partials/header') %>
 
 <main>
-  <!-- Header Starts Here -->
-  <header class="bg-gray-900 pattern">
     <!-- Hero Section With Video -->
-    <div class="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-128 lg:py-16 lg:flex-row lg:items-center lg:space-x-6">
-        <div class="w-full lg:w-3/5">
-          <div class="lg:mx-6 text-white">
-            <h1 class="my-2 text-shadow-xl font-medium font-mono tracking-tighter text-center md:text-left capitalize  text-3xl md:text-3xl lg:text-6xl lg:animate-pulse">
-              <span class="space-x-5">Where creativity earns</span>
-            </h1> 
+    <div class="relative bg-blue-violet">
+        <video playsinline autoplay muted loop poster="polina.jpg" src="https://res.cloudinary.com/nancytochi/video/upload/v1631721264/img-6308-1_arnJb2QP_hzjO_3_cjn3ze.mp4" id="bgvid" class="relative z-0 object-cover w-screen h-screen">
+            <!-- <source src="polina.webm" type="video/webm">
+            <source src="polina.mp4" type="video/mp4"> -->
+        </video>
 
-            <span class="font-normal italic font-mono tracking-tighter text-center md:text-left capitalize text-xl md:text-3xl lg:text-xl">
-              Get a community that values your art and is willing to pay for it.
-            </span>
+        <div class="absolute top-0 left-0 z-10">
+            <div class="flex items-center w-full mx-20 px-10 py-8 lg:h-screen">
+                <div class="space-y-8">
+                    <h1 class="my-2 text-shadow-xl text-blue-uranian font-bold font-mono tracking-tighter text-center md:text-left capitalize text-3xl md:text-3xl lg:text-6xl">
+                        Where creativity earns
+                    </h1> 
+                        
+                    <p class="my-6 text-sm text-white italic lg:text-2xl">
+                        Get a community that values your art and is willing to pay for it
+                    </p>
+    
+                    <div class="flex flex-col lg:flex-row">
+                        <a href="#" class="block px-6 py-3 text-md font-semibold text-center text-white bg-black rounded-md hover:bg-gray-700">Join The Circul</a>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <!-- Hero section ends here -->
 
-            <button class="px-2 py-2 my-3 ml-6 text-xxs md:m-0 md:text-lg lg:px-8 lg:py-3 lg:my-7 lg:text-xl bg-transparent border border-solid border-white hover:bg-gray-900 hover:text-red-600 font-bold capitalize rounded outline-none focus:outline-none" type="button">
-                <a href="">join the circul</a>
-            </button>  
-          </div>
-        </div>
+    <!-- What's Circul -->
+    <div class="bg-blue-violet container flex flex-col px-6 py-10 mx-auto lg:h-128 lg:py-16 lg:flex-row lg:items-center">
+        <div class="w-full">
+            <div class="lg:mx-6 text-white">
+                <h1 class="my-2 text-shadow-xl font-medium font-mono tracking-tighter text-center capitalize  text-3xl md:text-3xl lg:text-4xl">
+                    What's Circul?
+                </h1> 
 
-        <div class="flex items-center justify-center w-full h-96 lg:w-2/5">
-            <img class="object-cover w-full h-full max-w-2xl rounded-md" src="https://images.unsplash.com/photo-1555181126-cf46a03827c0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="glasses photo">
+            </div>
         </div>
     </div>
+    <!-- What's Circul Ends Here -->
 
     <!-- Pictures rows -->
-    <div class="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-128 lg:py-16 lg:flex-row lg:items-center lg:space-x-6">
-      <div class="w-full lg:w-3/5">
-        <section class="container p-6 mx-auto bg-white dark:bg-gray-800">
-          <h2 class="text-xl font-medium text-gray-800 capitalize dark:text-white md:text-2xl">Our Team</h2>
-  
+    <div class="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-128 lg:py-16 lg:flex-row lg:items-center lg:space-x-6>
+      <div class="w-full">
+        <section class="container p-6 mx-auto bg-blue-bell">
           <div class="flex items-center justify-center">
               <div class="grid gap-8 mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                   <div class="w-full max-w-xs text-center">
-                      <img class="object-cover object-center w-full h-48 mx-auto rounded-lg" src="https://images.unsplash.com/photo-1493863641943-9b68992a8d07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=739&q=80" alt="avatar"/>
-  
-                      <div class="mt-2">
-                          <h3 class="text-lg font-medium text-gray-700 dark:text-gray-200">Ahmed Omer</h3>
-                          <span class="mt-1 font-medium text-gray-600 dark:text-gray-300">CEO</span>
-                      </div>
+                      <img class="object-cover object-center w-full h-48 mx-auto rounded-lg" src="https://lh3.googleusercontent.com/ybJZOHBtaF_mZx7iWZ2z3YKOwzaJpooCXjP4jWGmqapwuryVxiZ7i4tcHlTOZctm4VhGD6AAQaUmU7gBjZJaFF1K6iU3qgdsqk6oHkEP-wu0n5Gcjte1mTtTqucdOn9jZC-getHyJg=w2400" alt="avatar"/>
                   </div>
   
                   <div class="w-full max-w-xs text-center">
-                      <img class="object-cover object-center w-full h-48 mx-auto rounded-lg" src="https://images.unsplash.com/photo-1516756587022-7891ad56a8cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="avatar"/>
-  
-                      <div class="mt-2">
-                          <h3 class="text-lg font-medium text-gray-700 dark:text-gray-200">Jane Doe</h3>
-                          <span class="mt-1 font-medium text-gray-600 dark:text-gray-300">Co-founder</span>
-                      </div>
+                      <img class="object-cover object-center w-full h-48 mx-auto rounded-lg" src="https://lh3.googleusercontent.com/JtomQKLWDIM6pGOMgcYqRF9AlZIPAO3yQZoHRbx9Z87_ufx5bb5-VemJfVjXTj5xNMwe6ba49nKLepwTX2fNJQIJUtH1CV_jmnUWrd4Lj0_nykfcJNduGHowYHpfPuR6aWxV4WTAfA=w2400" alt="avatar"/>
                   </div>
   
                   <div class="w-full max-w-xs text-center">
-                      <img class="object-cover object-center w-full h-48 mx-auto rounded-lg" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80" alt="avatar"/>
-  
-                      <div class="mt-2">
-                          <h3 class="text-lg font-medium text-gray-700 dark:text-gray-200">Steve Ben</h3>
-                          <span class="mt-1 font-medium text-gray-600 dark:text-gray-300">UI/UX</span>
-                      </div>
+                      <img class="object-cover object-center w-full h-48 mx-auto rounded-lg" src="https://lh3.googleusercontent.com/WWZKE51KTGeoXjMB1Ccm3NMNH7b0SPV-NZmzS4uscWKklG9PDkMdIrRfApIi9D19L6h3nS_4XbjbwBclXPTj_MYRQ_JRHsS-vJ9hQVL1FISV5ppQHjs6BmjQxk4UoxuagZln6QBAeQ=w2400" alt="avatar"/>
                   </div>
   
                   <div class="w-full max-w-xs text-center">
-                      <img class="object-cover object-center w-full h-48 mx-auto rounded-lg" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="avatar"/>
-  
-                      <div class="mt-2">
-                          <h3 class="text-lg font-medium text-gray-700 dark:text-gray-200">Patterson Johnson</h3>
-                          <span class="mt-1 font-medium text-gray-600 dark:text-gray-300">Software Engineer</span>
-                      </div>
+                      <img class="object-cover object-center w-full h-48 mx-auto rounded-lg" src="https://lh3.googleusercontent.com/uU26qRTtjvVCNZ8Q16TA5AOGeGXkzoZWNllOmnxP0rP2IucUW_80SxhyoQ6QfD-Q5T8ke4-iL5Hc0s5bOMkK1TK3377FRcUX4g-a1b6qeXDiYvSoFA3ewZdfGEBudC5fqiTh_qmwiw=w2400" alt="avatar"/>
                   </div>
               </div>
           </div>
         </section>
       </div>
     </div>
-  </header>
-  <!-- Header Ends Here -->
+    <!-- Picture rows ends here -->
 
+
+    <!-- Features Starts Here -->
+    <section id="features" class="py-20 bg-blue-bell text-white">
+      <h1 class="pt-6 font-extrabold text-3xl md:text-5xl text-center tracking-tighter">
+          What We Offer
+      </h1>
+
+      <div class="container mx-auto px-8 py-8 md:px-16 md:py-12">
+          <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-lg">
+
+              <!-- Circul Halal -->
+              <div class="px-4">
+                  <svg class="h-8 w-8" viewBox="0 0 30 30" fill="none">
+                      <g clip-path="url(#clip0)"><path d="M26.599 4.339a1.875 1.875 0 11-3.75 0 1.875 1.875 0 013.75 0zM7.151 25.661a1.875 1.875 0 11-3.75 0 1.875 1.875 0 013.75 0zM23.486 13.163a8.636 8.636 0 00-1.19-2.873l1.123-1.123-2.592-2.59L19.705 7.7a8.636 8.636 0 00-2.873-1.19V4.921h-3.664v1.586a8.634 8.634 0 00-2.873 1.19l-1.122-1.12-2.592 2.589 1.123 1.123a8.636 8.636 0 00-1.19 2.873H4.922l-.002 3.663h1.592A8.626 8.626 0 007.704 19.7l-1.127 1.127 2.59 2.591 1.128-1.127a8.623 8.623 0 002.873 1.19v1.597h3.664v-1.597a8.628 8.628 0 002.873-1.19l1.128 1.128 2.59-2.592-1.127-1.127a8.627 8.627 0 001.19-2.873h1.593v-3.664h-1.593zM15 19.256a4.255 4.255 0 110-8.511 4.255 4.255 0 010 8.51z" fill="#006D77"/><path d="M5.276 23.2c-.42 0-.823.105-1.182.302A13.853 13.853 0 011.172 15C1.172 7.375 7.375 1.172 15 1.172c.927 0 1.854.092 2.754.274a.586.586 0 00.232-1.149A15.111 15.111 0 0015 0C10.993 0 7.226 1.56 4.393 4.393A14.902 14.902 0 000 15c0 3.37 1.144 6.66 3.228 9.296-.268.4-.413.872-.413 1.365 0 .657.257 1.275.721 1.74a2.444 2.444 0 001.74.721c.658 0 1.276-.256 1.74-.721.465-.465.721-1.083.721-1.74s-.256-1.276-.72-1.74a2.445 2.445 0 00-1.74-.72zm.912 3.373a1.28 1.28 0 01-.912.377 1.28 1.28 0 01-.911-.377 1.28 1.28 0 01-.378-.912c0-.344.134-.668.378-.912a1.28 1.28 0 01.911-.377c.345 0 .668.134.912.378.243.243.377.567.377.911 0 .344-.134.668-.377.912zM26.772 5.703a2.465 2.465 0 00-.308-3.104 2.446 2.446 0 00-1.74-.721c-.658 0-1.276.256-1.74.72a2.445 2.445 0 00-.721 1.74c0 .658.256 1.276.72 1.741.465.465 1.083.72 1.74.72.42 0 .824-.104 1.183-.3A13.854 13.854 0 0128.828 15c0 7.625-6.203 13.828-13.828 13.828-.918 0-1.836-.09-2.728-.269a.586.586 0 00-.23 1.15c.968.193 1.963.291 2.958.291 4.007 0 7.773-1.56 10.607-4.393A14.902 14.902 0 0030 15c0-3.37-1.145-6.66-3.228-9.297zm-2.96-.452a1.28 1.28 0 01-.377-.912c0-.344.134-.668.377-.911a1.28 1.28 0 01.912-.378 1.29 1.29 0 010 2.578 1.28 1.28 0 01-.912-.377z" fill="#2D3748"/><path d="M12.582 25.078c0 .324.263.586.586.586h3.664a.586.586 0 00.586-.586v-1.136a9.179 9.179 0 002.199-.911l.802.802a.586.586 0 00.829 0l2.59-2.592a.586.586 0 000-.828l-.802-.802a9.169 9.169 0 00.911-2.199h1.132a.586.586 0 00.586-.585v-3.664a.586.586 0 00-.586-.586h-1.132a9.17 9.17 0 00-.911-2.199l.797-.797a.587.587 0 000-.829l-2.592-2.59a.586.586 0 00-.829 0l-.795.797a9.177 9.177 0 00-2.2-.912V4.922a.586.586 0 00-.585-.586h-3.664a.586.586 0 00-.586.586v1.126a9.169 9.169 0 00-2.199.91l-.796-.795a.586.586 0 00-.828 0l-2.592 2.59a.585.585 0 000 .828l.797.797a9.173 9.173 0 00-.911 2.199h-1.13a.586.586 0 00-.586.585l-.002 3.664a.585.585 0 00.586.586h1.132c.207.77.512 1.507.911 2.2l-.801.8a.586.586 0 000 .83l2.59 2.59a.586.586 0 00.829 0l.801-.801a9.185 9.185 0 002.2.911v1.136zm-1.97-3.28a.586.586 0 00-.732.078l-.713.714-1.761-1.763.712-.713a.586.586 0 00.078-.732 8.02 8.02 0 01-1.11-2.679.586.586 0 00-.572-.462H5.507l.002-2.492h1.005a.586.586 0 00.572-.463 8.022 8.022 0 011.11-2.678.586.586 0 00-.078-.733l-.708-.708 1.763-1.761.707.707c.196.196.5.228.733.078a8.016 8.016 0 012.678-1.11.586.586 0 00.463-.573v-1h2.492v1c0 .277.193.515.463.573a8.024 8.024 0 012.678 1.11c.232.15.537.118.732-.078l.708-.707 1.762 1.761-.708.708a.586.586 0 00-.078.732 8.027 8.027 0 011.11 2.679c.058.27.297.463.573.463h1.007v2.492h-1.007a.586.586 0 00-.573.462 8.02 8.02 0 01-1.11 2.679.586.586 0 00.078.732l.713.713-1.761 1.762-.714-.713a.586.586 0 00-.732-.078 8.027 8.027 0 01-2.678 1.11.586.586 0 00-.463.573v1.011h-2.492v-1.01a.586.586 0 00-.463-.574 8.021 8.021 0 01-2.678-1.11z" fill="#2D3748"/><path d="M19.841 15A4.847 4.847 0 0015 10.158 4.847 4.847 0 0010.158 15 4.847 4.847 0 0015 19.841 4.847 4.847 0 0019.841 15zm-8.51 0A3.674 3.674 0 0115 11.33 3.674 3.674 0 0118.67 15 3.674 3.674 0 0115 18.67 3.674 3.674 0 0111.33 15z" fill="#2D3748"/><path d="M20.395 2.216a.59.59 0 00.415-.172.593.593 0 00.171-.415.59.59 0 00-.586-.586.589.589 0 00-.586.586.589.589 0 00.586.587zM9.63 27.794a.59.59 0 00-.586.586.59.59 0 00.586.586.59.59 0 00.586-.586.59.59 0 00-.586-.585z" fill="#4299E1"/></g><defs><clipPath id="clip0"><path fill="#fff" d="M0 0h30v30H0z"/></clipPath></defs>
+                  </svg>
+              
+                  <h1 class="mt-4 font-bold text-2xl text-center">
+                      Circul Halal
+                  </h1>
+                  
+                  <p class="mt-2 text-justify">
+                      We create visual elements that make up the brand identity of your company, showing what it stands for and highlighting your beliefs
+                  </p>
+
+                  <p class="mt-2 text-justify">
+                      It is the first impression that meets the eye of a customer. We have a team of experienced designers who present some of the most attractive designs for distinguishing industries and cater to their needs.               
+                  </p>
+
+                  <p class="mt-2  text-justify">
+                      Let's help you create
+                      <span class="italic font-semibold">a lasting impression.</span>
+                  </p>
+              </div>
+              
+              <!-- Circul Fundr-->
+              <div class="px-4">
+                  <svg class="h-8 w-8" viewBox="0 0 30 30" fill="none">
+                      <path d="M29.6931 14.2283L22.7556 6.87823C22.3292 6.426 21.6175 6.40538 21.1652 6.83212C20.7137 7.25851 20.6927 7.9706 21.1195 8.42248L27.3284 15L21.1195 21.5783C20.6927 22.0302 20.7137 22.7419 21.1652 23.1687C21.3827 23.3738 21.6606 23.4754 21.9374 23.4754C22.2363 23.4754 22.5348 23.3569 22.7557 23.1233L29.6932 15.7729C30.1022 15.339 30.1023 14.6618 29.6931 14.2283Z" fill="#2D3748"/><path d="M8.88087 21.578L2.67236 15L8.88087 8.42215C9.30726 7.97028 9.28664 7.25812 8.83476 6.83179C8.38323 6.4054 7.67073 6.42603 7.2444 6.87791L0.306858 14.2279C-0.102245 14.6614 -0.102245 15.3391 0.306858 15.7726L7.24475 23.123C7.466 23.3574 7.76413 23.4755 8.06302 23.4755C8.33976 23.4755 8.61767 23.3735 8.83476 23.1684C9.28705 22.742 9.30726 22.0299 8.88087 21.578Z" fill="#2D3748"/><path d="M16.8201 3.08774C16.2062 2.99476 15.6317 3.41622 15.5379 4.03011L12.2379 25.6302C12.1441 26.2445 12.566 26.8186 13.1803 26.9124C13.238 26.921 13.295 26.9252 13.3516 26.9252C13.898 26.9252 14.3773 26.5266 14.4624 25.97L17.7624 4.3699C17.8562 3.7556 17.4343 3.1815 16.8201 3.08774Z" fill="#006D77"/>
+                  </svg>
+  
+                  <h1 class="mt-4 font-bold text-2xl text-center">
+                    Circul Fundr
+                  </h1>
+  
+                  <p class="mt-2 dark:text-gray-400 text-justify">
+                      Designing & developing for various screen sizes takes precision that's why we insist on a flawless user experience.
+                  </p>
+
+                  <p class="mt-2 dark:text-gray-400 text-justify">
+                      Every detail is evaluated to ensure that the site performs for ultimate user pleasure and engagement. Your audience will feel pleasure when interacting with your business online. 
+                  </p>
+
+                  <p class="mt-2 dark:text-gray-400 text-justify">
+                      <span class="italic font-semibold">More pleasure = more customers.</span>
+                      Time to redesign? Let’s get visionary!
+                  </p>
+              </div>
+  
+              <!-- Circul Only -->
+              <div class="px-4">
+                  <svg class="h-8 w-8" viewBox="0 0 30 30" fill="none">
+                      <path d="M27.3633 7.08984H26.4844V6.21094C26.4844 4.75705 25.3015 3.57422 23.8477 3.57422H4.39453C2.94064 3.57422 1.75781 4.75705 1.75781 6.21094V21.1523H0.878906C0.393516 21.1523 0 21.5459 0 22.0312V23.7891C0 25.2429 1.18283 26.4258 2.63672 26.4258H27.3633C28.8172 26.4258 30 25.2429 30 23.7891V9.72656C30 8.27268 28.8172 7.08984 27.3633 7.08984ZM3.51562 6.21094C3.51562 5.72631 3.9099 5.33203 4.39453 5.33203H23.8477C24.3323 5.33203 24.7266 5.72631 24.7266 6.21094V7.08984H20.332C18.8781 7.08984 17.6953 8.27268 17.6953 9.72656V21.1523H3.51562V6.21094ZM1.75781 23.7891V22.9102H17.6953V23.7891C17.6953 24.0971 17.7489 24.3929 17.8465 24.668H2.63672C2.15209 24.668 1.75781 24.2737 1.75781 23.7891ZM28.2422 23.7891C28.2422 24.2737 27.8479 24.668 27.3633 24.668H20.332C19.8474 24.668 19.4531 24.2737 19.4531 23.7891V9.72656C19.4531 9.24193 19.8474 8.84766 20.332 8.84766H27.3633C27.8479 8.84766 28.2422 9.24193 28.2422 9.72656V23.7891Z" fill="#2D3748"/><path d="M24.7266 21.1523H22.9688C22.4834 21.1523 22.0898 21.5459 22.0898 22.0312C22.0898 22.5166 22.4834 22.9102 22.9688 22.9102H24.7266C25.212 22.9102 25.6055 22.5166 25.6055 22.0312C25.6055 21.5459 25.212 21.1523 24.7266 21.1523Z" fill="#006D77"/><path d="M23.8477 12.3633C24.3331 12.3633 24.7266 11.9698 24.7266 11.4844C24.7266 10.999 24.3331 10.6055 23.8477 10.6055C23.3622 10.6055 22.9688 10.999 22.9688 11.4844C22.9688 11.9698 23.3622 12.3633 23.8477 12.3633Z" fill="#006D77"/>
+                  </svg>    
+  
+                  <h1 class="mt-4 font-bold text-2xl text-center">
+                     Circul Only
+                  </h1>
+                  
+                  <p class="mt-2 text-justify">
+                      We craft customized marketing strategies that gives you an unfair advantage over your competition.
+                  </p>
+
+                  <p class="mt-2 text-justify">
+                      Our process involves a full evaluation of your market so your marketing dollar is spent to reach the people who truly matter to your business. We integrate a vast range of online marketing tools to build your business traffic.
+                  </p> 
+                  
+                  <p class="mt-2 text-justify">
+                      Your business is unique and has distinct goals, we'll give it the <span class="italics font-semibold">exposure</span> it needs to thrive.
+                  </p>
+              </div>
+          </div>
+      </div>
+    </section>
+    <!-- Features Ends Here -->
+
+    <!-- Join the waitlist -->
+    <section id="contact" class="min-h-full bg-silk py-20">
+      <h1 class="font-extrabold text-3xl md:text-5xl text-center">Join he Waitlist</h1>
+
+      <div class="px-8 py-6">
+          <div class="max-w-2xl mx-auto text-md text-center">
+              <p class="text-xl md:text-2xl">
+                  We're excited to help! Let's turn your big ideas into  a reality and create something your customers will love.
+              </p>
+          </div>
+      </div>
+    </section>
+    <!-- Join The Waotlist Ends Here -->
+
+    <!-- Share Circul -->
+    <section id="contact" class="min-h-full bg-silk py-20">
+        <h1 class="font-extrabold text-3xl md:text-5xl text-center">
+            Share Circul
+        </h1>
+    
+        <div class="px-8 py-6">
+            <div class="max-w-2xl mx-auto text-md text-center">
+                <p class="text-xl md:text-2xl">
+                    We're excited to help! Let's turn your big ideas into  a reality and create something your customers will love.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Share Circul Ends Here -->
+
+    <!-- Contact Starts Here-->
+    <div class="container lg:h-screen px-6 py-16 mx-auto text-white bg-black">
+        <div class="lg:flex items-center mx-14">
+            <div class="w-full lg:w-1/3">
+                <div class="lg:max-w-lg">
+                    <h1 class="font-extrabold text-3xl md:text-5xl text-purple-400">Circul</h1>
+
+                    <div class="mt-10">
+                        <ul class="space-y-4">
+                            <li>
+                                <a href="">Home</a>
+                            </li>
+                            <li>
+                                <a href="">About</a>
+                            </li>
+                            <li>
+                                <a href="">Features</a>
+                            </li>
+                            <li>
+                                <a href="">Join The Waitlist</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+    
+            <div class="flex items-center justify-center w-full mt-6 lg:w-2/3">
+                <div class="flex flex-col text-center w-full mb-12">
+                    <h1 class="font-extrabold text-3xl md:text-5xl">Contact Us</h1>
+    
+                    <p class="lg:w-2/3 mx-auto text-xl mt-4">
+                        Have questions? Please fill the contact form below and we'll reply you shortly.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Ends Here -->
+  
 </main>
 
 

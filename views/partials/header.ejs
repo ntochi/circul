@@ -5,32 +5,38 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Where Creativity Earns | Circul</title>
+
+  <link href="https://vjs.zencdn.net/7.14.3/video-js.css" rel="stylesheet"/>
   <link rel="stylesheet" type="text/css" href="/build/tailwind.css">
 </head>
 <body>
-  <nav class="bg-black shadow">
-    <div class="container mx-auto px-12 py-3">
-        <div class="md:flex md:items-center md:justify-between">
-            <div class="flex justify-between items-center">
-                <div>
-                    <a href="/" class="text-2xl text-white font-medium hover:underline">Circul</a>
+    <nav class="bg-blue-violet shadow">
+        <div class="container mx-auto px-12 py-3">
+            <div class="md:flex md:items-center md:justify-between">
+                <div class="flex justify-between items-center">
+                    <div>
+                        <a href="/" class="lg:text-3xl text-white font-medium hover:underline italic">Circul</a>
+                    </div>
+
+                    <!-- Mobile menu button -->
+                    <div class="flex md:hidden">
+                        <button type="button" class="text-white dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400" aria-label="toggle menu">
+                            <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
+                                <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"></path>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
 
-                <!-- Mobile menu button -->
-                <div class="flex md:hidden">
-                    <button type="button" class="text-white dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400" aria-label="toggle menu">
-                        <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
-                            <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"></path>
-                        </svg>
-                    </button>
-                </div>
-            </div>
+                <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
+                <div class="hidden p-4 md:flex md:items-center text-lg text-white font-semibold">
+                    <a href="#about" class="block mx-4 mt-2 md:mt-0 capitalize hover:underline">About</a>
 
-            <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-            <div class="hidden p-4 md:flex md:items-center text-lg text-white font-semibold">
-                <a href="#about" class="block mx-4 mt-2 md:mt-0 capitalize hover:underline">About</a>
-                <a href="#contact" class="block mx-4 mt-2 md:mt-0 capitalize hover:underline">Sign Up</a>
+                    <a href="#about" class="block mx-4 mt-2 md:mt-0 capitalize hover:underline">Features</a>
+
+                    <a href="#contact" class="block mx-4 mt-2 md:mt-0 capitalize hover:underline">Sign Up</a>
+                </div>
             </div>
         </div>
-    </div>
-</nav>
+    </nav>
+    
