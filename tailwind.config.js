@@ -1,10 +1,13 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  purge: [
-    '',
-  ],
-  darkMode: false, // or 'media' or 'class'
+  purge: {
+    enabled: true,
+    content: [
+      './views/**/*.ejs'
+    ]
+  },
+
   theme: {
     extend: {
       spacing: {
