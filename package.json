@@ -4,9 +4,10 @@
   "description": "where creativity earns",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node app.js",
     "build": "postcss styles/tailwind.css -o public/build/tailwind.css"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ntochi/circul.git"
@@ -33,6 +34,10 @@
   },
   "devDependencies": {
     "tailwindcss-textshadow": "^2.1.3"
+  },
+
+  "engines": {
+    "node": "14.15.0"
   }
 
 }
