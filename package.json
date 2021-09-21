@@ -8,15 +8,15 @@
   },
   "main": "app.js",
   "dependencies": {
-    "autoprefixer": "^10.3.4",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "node": "^16.9.1",
-    "postcss": "^8.3.6",
-    "tailwindcss": "^2.2.15"
+    "tailwindcss-textshadow": "^2.1.3"
   },
   "devDependencies": {
-    "tailwindcss-textshadow": "^2.1.3"
+    "@tailwindcss/postcss7-compat": "^2.2.14",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.36",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.14"
   },
   "scripts": {
     "start": "node app.js",
