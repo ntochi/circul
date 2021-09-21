@@ -1,5 +1,5 @@
 const express = require('express');
-// const port = process.env.PORT || 3009;
+const port = process.env.PORT || 3009;
 
 const app = express();
 
@@ -14,4 +14,6 @@ app.get("/", (req, res) => {
 });
 
 
-app.listen(process.env.PORT);
+app.listen(port, () => {
+    console.log('Circul Has Started On Port 3009');
+});
