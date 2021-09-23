@@ -4,7 +4,7 @@
   "description": "where creativity earns",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node app.js",
     "build:css": "postcss styles/tailwind.css -o public/build/tailwind.css"
   },
   "repository": {
