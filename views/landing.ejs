@@ -2,25 +2,28 @@
 
 <main>
     <!-- Hero Section With Video -->
-    <div class="relative bg-blue-violet">
-        <video playsinline autoplay muted loop poster="polina.jpg" src="https://res.cloudinary.com/nancytochi/video/upload/v1631721264/img-6308-1_arnJb2QP_hzjO_3_cjn3ze.mp4" id="bgvid" class="relative z-0 object-cover w-screen h-screen">
-            <!-- <source src="polina.webm" type="video/webm">
-            <source src="polina.mp4" type="video/mp4"> -->
-        </video>
-
-        <div class="absolute top-0 left-0 bg-gray-900 bg-opacity-50 w-full bg-center bg-cover">
-            <div class="flex items-center mx-20 px-10 py-8 lg:h-screen">
-                <div class="space-y-2">
-                    <h1 class="text-shadow-xl text-yellow-100 font-bold font-mono tracking-tighter text-center md:text-left capitalize text-3xl md:text-3xl lg:text-7xl">
+    <div class="bg-yellow-200">
+        <div class="top-0 left-0 bg-yellow-200 bg-opacity-50 w-full bg-center bg-cover">
+            <div class="flex items-center py-14 px-6 lg:mx-20 lg:px-10 lg:py-8 h-auto lg:h-screen">
+                <div class="space-y-4 md:space-y-2">
+                    <h1 class="lg:text-shadow-lg text-black font-bold font-rubik tracking-tighter text-center md:text-left capitalize text-5xl md:text-4xl lg:text-7xl">
                         Where creativity earns
                     </h1> 
                         
-                    <p class="text-yellow-200 tracking-tighter font-extrabold text-sm lg:text-3xl text-shadow-xl">
+                    <p class="text-gray-900 tracking-tighter font-semibold text-center lg:text-left text-2xl md:text-xl lg:text-3xl font-arimo">
                         Get a community that values your art and is willing to pay for it
                     </p>
     
-                    <div class="flex flex-col lg:flex-row">
-                        <a href="#sign-up" class="block px-12 my-12 py-3 text-xl font-extrabold text-center text-yellow-500 bg-white rounded-3xl">Join The Circul</a>
+                    <!-- Md-Lg breakpoint -->
+                    <div class="hidden md:flex flex-col lg:flex-row">
+                        <a href="#sign-up" class="block my-6 md:my-8 lg:my-12 py-3 lg:px-12 text-2xl font-extrabold text-center text-yellow-500 bg-white rounded-3xl">Join The Circul</a>
+                    </div>
+
+                    <!-- Small breakpoint -->
+                    <div class="flex md:hidden items-center justify-center">
+                        <a href="#sign-up" class="px-6 py-2 my-6 text-xl font-extrabold text-center rounded-3xl text-yellow-500 bg-white hover:bg-gray-900 ">
+                           Join The Circul
+                        </a>    
                     </div>
                 </div>
             </div>
@@ -29,19 +32,33 @@
     <!-- Hero section ends here -->
 
     <!-- What's Circul Starts Here -->
-    <div id="about" class="container flex flex-col px-6 py-10 mx-auto lg:h-screen lg:py-16 lg:flex-row bg-yellow-100">
+    <div id="about" class="container flex flex-col px-6 py-10 mx-auto lg:min-h-full lg:py-16 lg:flex-row bg-black">
         <div class="w-full">
             <div class="lg:mx-6 space-y-10">
-                <h1 class="font-extrabold text-center text-gray-900 text-3xl md:text-3xl lg:text-5xl tracking-tighter">
+                <h1 class="font-extrabold text-center text-white text-3xl md:text-3xl lg:text-5xl tracking-tighter font-rubik">
                     What's Circul?
                 </h1> 
 
-                <div class="max-w-2xl text-center mx-auto text-gray-700 text-2xl">
-                    A platform that makes it easy for creators, nano and micro - influencers to become their own agencies by providing them with the direct access to pitch for campaign briefs posted by brands on our platform.
+                <div class="max-w-2xl text-center mx-auto text-white text-2xl">
+                    <ul class="space-y-3 font-medium">
+                        <li>
+                            What if everyday creators could focus on creating full-time without being afraid of how they will earn regularly?
+                        </li>
+                        <li>    
+                            Imagine a world where everyday people want to become full-time creators because they know they can make a good living from it? 
+                        </li>
+                        <li class="italic">
+                            This is why Circul exists! 
+                        </li>
+                        <li>
+                            We're enabling creators to do their best work and build meaningful careers in the process. 
+                        </li>
+                    </ul>
                 </div>
 
-                <section class="container p-6 mx-auto bg-gray-100">
-                    <div class="flex items-center justify-center">
+
+                <section class="container p-6 mx-auto">
+                    <div class="hidden lg:flex items-center justify-center">
                         <div class="grid gap-8 my-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                             <div class="w-full max-w-xs text-center">
                                 <img class="object-cover object-center w-full h-48 mx-auto rounded-lg" src="https://lh3.googleusercontent.com/ybJZOHBtaF_mZx7iWZ2z3YKOwzaJpooCXjP4jWGmqapwuryVxiZ7i4tcHlTOZctm4VhGD6AAQaUmU7gBjZJaFF1K6iU3qgdsqk6oHkEP-wu0n5Gcjte1mTtTqucdOn9jZC-getHyJg=w2400" alt="avatar"/>
@@ -68,21 +85,21 @@
 
 
     <!-- Features Starts Here -->
-    <section id="features" class="py-10 space-y-11 bg-gray-100">
-      <h1 class="pt-6 font-extrabold text-3xl md:text-5xl text-center tracking-tighter text-gray-900">
+    <section id="features" class="py-10 space-y-11 bg-yellow-200">
+      <h1 class="pt-6 font-extrabold text-3xl md:text-5xl text-center tracking-tighter text-black font-rubik">
           Why Choose Circul?
       </h1>
 
       <div class="container mx-auto px-8 py-8">
             <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-lg">
                 <!-- Circul Halal -->
-                    <div class="p-9 bg-purple-200 rounded-2xl">              
-                        <h1 class="font-bold text-2xl text-center">
-                            Circul Halal
+                    <div class="p-9 bg-gray-200 rounded-2xl font-arimo">              
+                        <h1 class="font-bold text-2xl text-center font-rubik">
+                            Circul Hala
                         </h1>
 
-                        <p class="italic font-semibold text-center">
-                            Be appreciated by the people who love your work!🙏
+                        <p class="font-semibold text-center">
+                            Be appreciated by the people who love your work!
                         </p>
 
                         <div class="text-center space-y-3 mt-5">
@@ -101,13 +118,13 @@
                     </div>
                     
                     <!-- Circul Fundr-->
-                    <div class="p-9 bg-purple-200 rounded-2xl">
-                        <h1 class="font-bold text-2xl text-center">
+                    <div class="p-9 bg-gray-200 rounded-2xl font-arimo">
+                        <h1 class="font-bold text-2xl text-center font-rubik">
                             Circul Fundr
                         </h1>
 
-                        <p class="italic font-semibold text-center">
-                            Crowdfund your next project or the one(s) you’ve put on hold 👀
+                        <p class="font-semibold text-center">
+                            Crowdfund your next project or the one(s) you’ve put on hold
                         </p>
         
                         <div class="text-center space-y-3 mt-5">
@@ -122,13 +139,13 @@
                     </div>
         
                     <!-- Circul Only -->
-                    <div class="p-9 bg-purple-200 rounded-2xl">
-                        <h1 class="font-bold text-2xl text-center">
-                            Circul Only
+                    <div class="p-9 bg-gray-200 rounded-2xl font-arimo">
+                        <h1 class="font-bold text-2xl text-center font-rubik">
+                            My Circul Only
                         </h1>
 
-                        <p class="italic font-semibold text-center">
-                            Connect with the people that really love what you do! 🥰
+                        <p class="font-semibold text-center">
+                            Connect with the people that really love what you do!
                         </p>
                         
                         <div class="text-center space-y-3 mt-5">
@@ -151,19 +168,19 @@
     <!-- Features Ends Here -->
 
     <!-- Join the waitlist -->
-    <section id="sign-up" class="min-h-full bg-blue-violet text-white py-20 space-y-6">
-        <h1 class="font-extrabold text-3xl md:text-5xl text-center">Join The Waitlist</h1>
+    <section id="sign-up" class="min-h-full bg-black text-white py-20 space-y-6">
+        <h1 class="font-extrabold text-3xl md:text-5xl text-center font-rubik">Join The Waitlist</h1>
 
         <div>
             <div class="max-w-2xl mx-auto text-md text-center">
-                <p class="text-xl md:text-2xl">
-                    Sign up for Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat fuga fugit nisi odit quasi aperiam!
+                <p class="text-xl md:text-2xl font-arimo">
+                    Sign up to get early access to the Circul
                 </p>
             </div>
 
             <div class="flex items-center justify-center mt-8">
                 <a href="#" class="px-5 py-2 text-lg font-semibold text-center rounded-md text-yellow-200 bg-transparent border border-solid border-yellow-400 hover:bg-gray-900">
-                    Sign Up!
+                   Yes, I Want In!
                 </a>    
             </div>
         </div>
@@ -172,13 +189,13 @@
 
     <!-- Share Circul -->
     <section id="share" class="min-h-full bg-yellow-100 py-20">
-        <h1 class="font-extrabold text-3xl md:text-5xl text-center">
+        <h1 class="font-extrabold text-3xl md:text-5xl text-center font-rubik ">
             Share Circul
         </h1>
     
         <div class="px-8 py-6">
             <div class="max-w-2xl mx-auto text-md text-center">
-                <p class="text-xl md:text-2xl">
+                <p class="text-xl md:text-2xl font-arimo">
                     Tell your BFF to tell their cousin!
                 </p>
             </div>
@@ -193,27 +210,31 @@
     <!-- Share Circul Ends Here -->
 
     <!-- Contact Starts Here-->
-    <div id="contact" class="container lg:h-screen px-6 py-16 mx-auto text-white bg-black">
-        <div class="lg:flex mx-14">
+    <div id="contact" class="container lg:h-screen px-6 py-16 mx-auto text-white bg-black font-rubik">
+        <div class="hidden md:flex mx-14">
             <div class="w-full lg:w-1/3">
                 <div class="lg:max-w-lg">
-                    <h1 class="font-extrabold text-3xl md:text-5xl text-shadow-purple">Circul</h1>
+                    <div class="bg-yellow-">
+                        <a href="/" class="font-extrabold text-3xl md:text-5xl text-shadow-purple text-white">
+                            <img class="bg-yellow-200" width="70" height="80" src="https://lh3.googleusercontent.com/Q0jQI5PjAduLGa1lxP13sGAwBElHxOAug-pOwLYXA0tYy8y4IOVn3AINRj5VLKySfO_hEylyIEPwFRA8HWRsUPAqrhX7wiYVb-2QAu0cZewO_XJiCM0M6jQ4qRhKjgLfOj7XN1jo7Q=w2400" alt="">
+                        </a>    
+                    </div>
 
                     <div class="mt-10">
                         <ul class="space-y-1">
-                            <li class="font-extrabold text-3xl md:text-5xl hover:text-purple-400">
+                            <li class="font-extrabold text-3xl md:text-5xl hover:text-yellow-400">
                                 <a href="/">Home</a>
                             </li>
 
-                            <li class="font-extrabold text-3xl md:text-5xl hover:text-purple-400">
+                            <li class="font-extrabold text-3xl md:text-5xl hover:text-yellow-400">
                                 <a href="#about">About</a>
                             </li>
 
-                            <li class="font-extrabold text-3xl md:text-5xl hover:text-purple-400">
+                            <li class="font-extrabold text-3xl md:text-5xl hover:text-yellow-400">
                                 <a href="#features">Features</a>
                             </li>
 
-                            <li class="font-extrabold text-3xl md:text-5xl hover:text-purple-400">
+                            <li class="font-extrabold text-3xl md:text-5xl hover:text-yellow-400">
                                 <a href="#sign-up">Sign Up</a>
                             </li>
                         </ul>
@@ -231,16 +252,16 @@
     
                     <ul class="text-2xl mt-10 font-bold space-y-14">
                        <li>
-                           Email: <span class="hover:text-purple-400">circulafrica@gmail.com</span>
+                           Email: <span class="hover:text-yellow-400">circulafrica@gmail.com</span>
                        </li>
                        <li>
-                           Call Us: <span class="hover:text-purple-400">+2347050917570 or +2348123863559</span>
+                           Call Us: <span class="hover:text-yellow-400">+2347050917570 or +2348123863559</span>
                        </li>
                        <li class="space-x-5">
-                           <span class="hover:underline hover:text-purple-400">
+                           <span class="hover:underline hover:text-yellow-400">
                                 <a href="">Twitter</a>
                            </span>
-                           <span class="hover:underline hover:text-purple-400">
+                           <span class="hover:underline hover:text-yellow-400">
                                 <a href="https://www.instagram.com/circulafrica/?utm_medium=copy_link">Instagram</a>
                            </span>
                        </li>
@@ -248,6 +269,32 @@
                 </div>
             </div>
         </div>
+
+        <div class="w-full text-center">
+            <h1 class="font-extrabold text-3xl md:text-5xl tracking-tighter">Want To Get In Touch?</h1>
+
+            <ul class="text-2xl mt-10 font-bold space-y-14">
+               <li>
+                   Email: <span class="hover:text-yellow-400">circulafrica@gmail.com</span>
+               </li>
+               <li>
+                   Call Us: <span class="hover:text-yellow-400">+2347050917570 or +2348123863559</span>
+               </li>
+               <li class="space-x-5">
+                   <span class="hover:underline hover:text-yellow-400">
+                        <a href="">Twitter</a>
+                   </span>
+                   <span class="hover:underline hover:text-yellow-400">
+                        <a href="https://www.instagram.com/circulafrica/?utm_medium=copy_link">Instagram</a>
+                   </span>
+               </li>
+            </ul>
+
+            <p class="mt-32">
+                © Copyright 2021. Circul
+            </p>
+        </div>
+
     </div>
     <!-- Contact Ends Here -->
   

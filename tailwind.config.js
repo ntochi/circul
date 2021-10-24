@@ -9,6 +9,12 @@ module.exports = {
   },
 
   theme: {
+    fontFamily: {
+      'rubik': ['Rubik'],
+      'play': ['Playfair Display'],
+      'arimo': ['Arimo']
+    },
+
     extend: {
       spacing: {
         128: '32rem',
@@ -32,7 +38,7 @@ module.exports = {
         'purple': '8px 8px 8px rgba(102, 51, 153, 1)',
         '3xl': '0 0 3px rgba(0, 0, 0, .8), 0 0 5px rgba(0, 0, 0, .9)',
       },
-    },
+    }
 
   },
   
