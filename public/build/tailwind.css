@@ -646,8 +646,8 @@ video {
   height: auto;
 }
 
-.min-h-full {
-  min-height: 100%;
+.h-full {
+  height: 100%;
 }
 
 .w-6 {
@@ -1145,10 +1145,6 @@ video {
 
   .md\:hidden {
     display: none;
-  }
-
-  .md\:h-screen {
-    height: 100vh;
   }
 
   .md\:min-h-full {
